@@ -1,13 +1,24 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffe6dc;
+  color: #020202;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(30,200,95,0.8);
   float: left;
   position: fixed;
   width: 100%;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover, a:active {
+  color: #000000;
 }
 
 .logo {
@@ -49,4 +60,26 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+  font-size: 2.3em;
+  line-height: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+.author {
+  line-height: 2em;
+}
+
+.story-text {
+  line-height: 1.4em;
+}
+
+figcaption {
+  font-size: 0.8em;
 }
